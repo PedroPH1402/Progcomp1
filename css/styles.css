@@ -1,0 +1,57 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /*fonte do texto*/
+    background-color: rgb(140, 192, 89);
+    /*define a cor do fundo*/
+    display: flex;
+    /* usa modelo FLexBox, conceito de caixa para posicionamento*/
+    justify-content: center;
+    /*centraliza na horizonta*/
+    height: 100vh;
+    /*altura da pagina (vertical heigh*/
+    align-items: center;
+    /*centraliza na horizontal*/
+}
+
+.container {
+    background-color: rgb(250, 246, 241);
+    padding: 20px;
+    /*espaçamento interno dentro*/
+    /* parecido com o void, pode ser usado varias veses*/
+    border-radius: 6px;
+    text-align: center;
+    /*alinhamento do texto*/
+    box-shadow: 12px 10px 14px rgb(5, 5, 5)
+        /*sombra*/
+}
+
+button {
+    background-color: rgb(130, 235, 235);
+    /* Cor do fundo do botão*/
+    color: rgb(6, 7, 2);
+    /* Cor da fonte do Botão*/
+    border-radius: 50px;
+    /* Arredonda a borda do botão*/
+}
+
+button:hover {
+   /* Ao passar o mouse em cima do botão acontece algo */
+   background-color: brown; 
+   /* Muda a cor do botã0*/
+   border-radius: 50px;
+   /* Arredonda a borda do botão*/
+   box-shadow: 12px 10px 14px rgb(5, 5, 5)
+   /* Sombra do botão*/
+}
+
+.foto {
+    /* Borda com cantos arredondados*/
+    border-radius: 50%;
+    /* Largura da imagem*/
+    width: 100px;
+    /* Altura da imagem*/
+    height: 100px;
+    /* Espaçamento externo abaixo*/
+    margin-bottom: 15px;
+
+}
