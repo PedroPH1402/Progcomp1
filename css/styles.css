@@ -15,7 +15,7 @@ body {
 
 .container {
     background-color: rgb(250, 246, 241);
-    padding: 20px;
+    padding: 40px;
     /*espaçamento interno dentro*/
     /* parecido com o void, pode ser usado varias veses*/
     border-radius: 6px;
@@ -46,7 +46,7 @@ button:hover {
 
 .foto {
     /* Borda com cantos arredondados*/
-    border-radius: 50%;
+    border-radius: 8%;
     /* Largura da imagem*/
     width: 100px;
     /* Altura da imagem*/
@@ -54,4 +54,4 @@ button:hover {
     /* Espaçamento externo abaixo*/
     margin-bottom: 15px;
 
-}
+}   
